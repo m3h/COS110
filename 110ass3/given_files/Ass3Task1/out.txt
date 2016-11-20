@@ -1,0 +1,37 @@
+-----------insert------------
+invalid index
+[a]
+invalid index
+-----copy constructor---------------
+[]
+[z,a,z]
+[a]
+-----------get------------
+-1 ERROR: invalid index
+0:: index: 0z[z,x,a]
+1:: index: 1x[z,x,a]
+2:: index: 2a[z,x,a]
+3 ERROR: invalid index
+Error on empty:: The list is empty!
+-----------operator[]------------
+ERROR: invalid index
+index: 0z
+index: 1x
+index: 2a
+ERROR: invalid index
+Error on empty:: The list is empty!
+-----------remove------------
+ERROR: invalid index
+ERROR: invalid index
+x -> [z,a]
+z -> [a]
+a -> []
+ERROR: The list is empty!
+-----------operator=------------
+[a]
+[]
+-----------operator+------------
+[e,d,c,b,a,a,z,a]
+[e,d,c,b,a,a,z,a,e,d,c,b,a,a,z,a]
+[e,d,c,b,a,a,z,a]
+[e,d,c,b,a,a,z,a]
